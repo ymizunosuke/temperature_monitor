@@ -1,0 +1,17 @@
+[STATUS]
+SUCCESS = 0
+ERROR = 1
+
+[ERROR_COUNT]
+DEFAULT = 0
+LIMIT = 5
+
+[MESSAGE]
+ERROR_NO_DEVICE = "<!channel> デバイスに接続できません。"
+
+[DB]
+file = db/temperature.db
+
+[LOG]
+file = logs/temperature.log
+
